@@ -1,4 +1,4 @@
-# 🌿 HabitFlow
+#  HabitFlow
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.0-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -10,17 +10,17 @@
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-- **🎯 Fluid Habit Management**: Create, view, check off, edit, and delete daily and weekly habits.
-- **🔥 Streak & Consistency Trackers**: Automatically calculates active/best streaks and total check-ins to build long-term momentum.
-- **📊 Consistency Matrix**: A clean weekly consistency grid mapping your weekly progress percentage and daily check-ins.
-- **🔐 Secure Client-side Auth**: Lightweight authentication context with automatic user database simulation, demo accounts, and account-isolated habit storage.
-- **🎨 Cozy Aesthetics**: Minimalist, responsive UI built with Tailwind CSS using custom tones: *Ink* (`#19221E`), *Moss* (`#47735B`), *Mist* (`#F3F6F2`), and *Peach* (`#FFB899`).
+- ** Fluid Habit Management**: Create, view, check off, edit, and delete daily and weekly habits.
+- ** Streak & Consistency Trackers**: Automatically calculates active/best streaks and total check-ins to build long-term momentum.
+- ** Consistency Matrix**: A clean weekly consistency grid mapping your weekly progress percentage and daily check-ins.
+- ** Secure Client-side Auth**: Lightweight authentication context with automatic user database simulation, demo accounts, and account-isolated habit storage.
+- ** Cozy Aesthetics**: Minimalist, responsive UI built with Tailwind CSS using custom tones: *Ink* (`#19221E`), *Moss* (`#47735B`), *Mist* (`#F3F6F2`), and *Peach* (`#FFB899`).
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) (App Router, Client Components, Server-ready Routing)
 - **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict type-safety)
@@ -30,7 +30,7 @@
 
 ---
 
-## 📂 Folder Structure
+##  Folder Structure
 
 This application uses a streamlined, **flat layout structure** under the Next.js App Router for ease of development:
 
@@ -47,45 +47,10 @@ src/
     ├── layout.tsx            # Global layout wrapper
     ├── globals.css           # Custom Tailwind base utilities
     ├── types.ts              # TS interfaces (Habit, HabitColor, Frequency)
-    └── utils.ts              # Helpers (Streaks, date formatting, progress calculations)
-```
+    └── utils.ts              # Helpers (Streaks, date formatting, progress calculation
 
----
 
-## 🚀 Getting Started
-
-### 📋 Prerequisites
-
-Ensure you have **Node.js** (v18.x or later) and **pnpm** installed:
-```bash
-# Verify pnpm installation
-pnpm -v
-```
-*(If you don't have pnpm, you can install it using `npm i -g pnpm`)*
-
-### 🛠️ Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/habitflow.git
-   cd habitflow
-   ```
-
-2. **Install project dependencies**:
-   ```bash
-   pnpm install
-   ```
-
-3. **Run the Development Server**:
-   ```bash
-   pnpm run dev
-   ```
-   Open [http://localhost:3000](http://localhost:3000) in your browser.
-
----
-
-## 🔐 Demo Account Credentials
-
+--- ## Demo Account Credentials
 For quick testing, a demo account is pre-registered in the authentication database simulation:
 
 - **Email**: `test@example.com`
@@ -93,18 +58,6 @@ For quick testing, a demo account is pre-registered in the authentication databa
 
 You can also switch to **Create Account** mode on the login page to set up a brand new user. Habits created will automatically separate and save under your specific email.
 
----
-
-## 📦 Deployment to Vercel
-
-The easiest way to deploy HabitFlow is with the **Vercel Platform**:
-
-1. Push your code to a GitHub, GitLab, or Bitbucket repository.
-2. Go to the [Vercel Dashboard](https://vercel.com/new) and select **Import Project**.
-3. Choose your repository and import it.
-4. Click **Deploy**. Vercel will automatically build the Next.js routes and assign a live URL!
-
----
 
 ## 📄 License
 

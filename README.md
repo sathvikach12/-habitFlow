@@ -1,7 +1,6 @@
 #  HabitFlow
 
 [![Next.js](https://img.shields.io/badge/Next.js-15.0-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)](https://nextjs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.0-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![pnpm](https://img.shields.io/badge/pnpm-9.x-F69220?style=for-the-badge&logo=pnpm&logoColor=white)](https://pnpm.io/)
 [![Vercel](https://img.shields.io/badge/Vercel-Deploy-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/)
@@ -23,7 +22,7 @@
 ##  Tech Stack
 
 - **Framework**: [Next.js](https://nextjs.org/) (App Router, Client Components, Server-ready Routing)
-- **Language**: [TypeScript](https://www.typescriptlang.org/) (Strict type-safety)
+- **Language**: [Javascript]
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/) (Custom theme extension, responsive layout system)
 - **Icons**: [@heroicons/react](https://heroicons.com/)
 - **Context/State**: React Context API (`AuthContext`, `HabitContext`) with `localStorage` persistent layers.
